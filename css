@@ -1,0 +1,257 @@
+/* color-scheme */
+.webcolored-section {
+
+}
+.whitecolored-section
+
+/* html elements */
+
+body {
+    width: 97.1%;
+    text-align: center;
+}
+/* width of each section */
+#title, #features, #testimonials, #press, #pricing, #cta{
+    width: 103%;
+    text-align: center;
+}
+
+/* title section */
+
+#title {
+    background-color: #ff4c68;
+    height: 627px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+.title_header {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: white;
+    position: relative;
+    top: 25px;
+}
+
+.container-fluid {
+    padding: 1% 15%;
+}
+
+
+/* navigation bar (which is also located in the title section) */
+
+.navbar-brand {
+    font-family: "Montserrat-thin";
+    font-size: 2.5rem;
+    position: relative;
+    right: 17px;
+}
+
+.nav-item {
+    margin: 0 17px;
+    font-size: 1.15rem;
+}
+
+.navbar {
+    padding-bottom: 70px;
+}
+
+
+/* buttons located in the title section (#title_section) */
+
+.btn {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 20px;
+    position: relative;
+    left: -10px;
+}
+
+
+/* picture of iphone located in the title_section */
+
+.picture {
+    height: 80%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 50px;
+    bottom: 8px;
+}
+
+
+/* end of title_section */
+
+
+/* feature section */
+
+#features {
+    padding: 10% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 5;
+}
+
+
+/* icon class */
+
+.icon {
+    font-size: 100px;
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+
+
+/* headers contained within the feature_section */
+
+.features-header {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+
+/* paragraphs contained within the features-paragraph */
+
+.features-paragraph {
+    color: #8f8f8f;
+    width: 60%;
+    margin: auto;
+}
+
+
+/* icon---hover styling */
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* end of feature section */
+
+
+/* start of testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonials-header {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: white;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* end of testimonial section */
+
+
+/* start of press section (i.e where a certain website has been featured) */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+}
+/* end of press section */
+
+
+/* pricing section */
+
+.pricing-header {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.pricing-h3 {
+    font-family: "Montserrat-thin";
+    font-weight: 1000;
+}
+
+#pricing {
+    padding: 5% 15%;
+}
+
+.pricing-list {
+    color: #8f8f8f;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* end of pricing_section */
+
+
+/* media query breakpoint/css breakpoint for mobile viewport */
+
+@media screen and (max-width: 993px) {
+    .picture {
+        height: 80%;
+        transform: rotate(0);
+        position: static;
+        left: 50px;
+        bottom: 15px;
+        padding-top: 20px;
+    }
+    #title {
+        height: 1045px;
+    }
+    .title-items {
+        text-align: center;
+    }
+}
+
+
+/* call to action section */
+
+#cta {
+    background-color: #ff4c68;
+}
+/* end of call to action section */
+
+
+/* footer_section */
+
+#footer {
+    padding: 10% 7% 0%;
+    text-align: center;
+}
+
+.icon-paragraph {
+    letter-spacing: 8px;
+    
+}
+
+.copyright-paragraph {
+    font-size: 12px;
+    word-spacing: 5px;
+    position: relative;
+    right: 3px;
+    color: #8f8f8f;
+}
+
+
+/* end of footer_section */
+
+/* joint classes */
+#cta, .carousel-item{
+    padding: 7% 15%;
+}
